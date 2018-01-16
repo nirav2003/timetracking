@@ -122,7 +122,7 @@ class TimeTrackingPlugin extends MantisPlugin {
 		<div class="widget-main no-padding">
 
    <div class="table-responsive">
-   <table class="width100" cellspacing="1">
+   <table STYLE="width: 100%" cellspacing="1">
    <tr class="row-category">
       <td><div align="center"><b><?php echo plugin_lang_get( 'expenditure_date' ); ?></b></div></td>
       <td><div align="center"><b><?php echo plugin_lang_get( 'hours' ); ?></b></div></td>
@@ -152,7 +152,7 @@ class TimeTrackingPlugin extends MantisPlugin {
      <td><div align="center"><select name="time_category"><?php foreach ( explode(PHP_EOL,plugin_config_get( 'categories' )) as $t_key ) {
 		echo '<option value="' . $t_key . '">' . $t_key . '</option>';
 	} ?></select></div></td>
-     <td><div align="center"><input type="text" name="time_info"/></div></td>
+     <td><div align="center"><textarea rows="3" cols="100" name="time_info" maxlength="230"> </textarea> </div></td>
      <td><input name="<?php echo plugin_lang_get( 'submit' ) ?>" type="submit" value="<?php echo plugin_lang_get( 'submit' ) ?>" /></td>
    </tr>
 

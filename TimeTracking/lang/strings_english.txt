@@ -24,5 +24,13 @@
    $s_plugin_TimeTracking_timerecord_menu = 'Jump to TimeTracking';
 
    $s_plugin_TimeTracking_get_info = 'Get time tracking information';
+   
+   $s_plugin_TimeTracking_select_user = 'Select User';
+   $s_plugin_TimeTracking_all_usera = 'All Users';
+   $s_plugin_TimeTracking_report_detail = 'Show Detail Report?';
+   $s_plugin_TimeTracking_report_byuser = 'Show Report By User?';
+   $s_plugin_TimeTracking_report_project = 'Show Report By Project?';
+   $s_plugin_TimeTracking_report_issue = 'Show Report By Issue?';
+   $s_plugin_TimeTracking_hours_decimal = 'Decimal Hours';
 
 ?>
